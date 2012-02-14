@@ -1,7 +1,15 @@
-EESchema-DOCLIB  Version 2.0  Date: 2/14/2012 2:14:05 AM
+EESchema-DOCLIB  Version 2.0  Date: 2/14/2012 4:00:38 AM
 #
 $CMP BOARD_PROTO_QUARTER
 D Prototype Style Board, 17x2 Sets of Holes, 2 Busses
+$ENDCMP
+#
+$CMP C
+D Non-Polarized Capacitor
+$ENDCMP
+#
+$CMP CONN_2
+D Generic 2 pin connector
 $ENDCMP
 #
 $CMP DIP28
@@ -12,12 +20,20 @@ $CMP JACK_POWER
 D Power Jack
 $ENDCMP
 #
+$CMP JUMPER_SPDT
+D Jumper, SPDT Type
+$ENDCMP
+#
 $CMP MOUNT
 D Mounting Hole
 $ENDCMP
 #
 $CMP PUSH_SWITCH
 D Momentary NO Switch
+$ENDCMP
+#
+$CMP R
+D Resistor
 $ENDCMP
 #
 #End Doc Library
