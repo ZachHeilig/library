@@ -1,3 +1,19 @@
+Silkscreen lettering size:
+    standard: 0.75mm X 1.00mm X 0.15mm
+    large   : 1.00mm X 1.50mm X 0.25mm
+
+Default pad/hole sizes:
+    1.72mm pad / 1.12mm hole
+Mounting hole:
+    3.80mm pad / 3.18mm hole
+
+PTH spacing grid: 0.050" (1.27mm)
+PTH routing grid: 0.010" (0.254mm)
+
+SMT spacing grid: 0.500mm
+SMT routing grid: 0.100mm
+
+Origin point for drill and place files: lower left corner of board.
 
 One other set of files is expected in this directory:
 OPENHARDWARE.mdc
