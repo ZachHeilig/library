@@ -1,4 +1,37 @@
-EESchema-DOCLIB  Version 2.0  Date: 2/14/2012 5:02:52 AM
+EESchema-DOCLIB  Version 2.0  Date: 3/18/2012 1:42:51 AM
+#
+$CMP ATMEGA168
+D AVR  16K Flash, 512B EEPROM, 1K SRAM
+K AVR ATMEGA
+F http://www.atmel.com/Images/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA328
+D AVR  32K Flash, 1K EEPROM, 2K SRAM
+K AVR ATMEGA
+F http://www.atmel.com/Images/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA48
+D AVR  4K Flash, 256B EEPROM, 512B SRAM
+K AVR ATMEGA
+F http://www.atmel.com/Images/doc8271.pdf
+$ENDCMP
+#
+$CMP ATMEGA88
+D AVR  8K Flash, 512B EEPROM, 1K SRAM
+K AVR ATMEGA
+F http://www.atmel.com/Images/doc8271.pdf
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Standard IDC6 Male Connector, ATMEL ISP 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+$CMP BATTERY
+D Generic Battery
+$ENDCMP
 #
 $CMP BOARD_PROTO_QUARTER
 D Prototype Style Board, 17x2 Sets of Holes, 2 Busses
@@ -12,20 +45,96 @@ $CMP CONN_2
 D Generic 2 pin connector
 $ENDCMP
 #
+$CMP CP
+D Polarized Capacitor
+$ENDCMP
+#
+$CMP CRYSTAL_SMALL
+D 2-Terminal Crystal
+$ENDCMP
+#
 $CMP DIP28
 D Generic 28 Pin DIP
+$ENDCMP
+#
+$CMP INDUCTOR
+D Generic Inductor
+$ENDCMP
+#
+$CMP JACK_PHONE_2
+D Mono Audio Jack with Switch
 $ENDCMP
 #
 $CMP JACK_POWER
 D Power Jack
 $ENDCMP
 #
+$CMP JMP_1
+D Shunt/Jumper
+$ENDCMP
+#
+$CMP JUMPER3
+D 2 Position Jumper
+$ENDCMP
+#
 $CMP JUMPER_SPDT
 D Jumper, SPDT Type
 $ENDCMP
 #
+$CMP LM386
+D Mono Audio Power Amp
+F http://www.ti.com/lit/ds/symlink/lm386.pdf
+$ENDCMP
+#
+$CMP LT1300
+D Boost to 3.3V or 5V Converter
+F http://cds.linear.com/docs/Datasheet/lt1300.pdf
+$ENDCMP
+#
+$CMP MCP1700-1.2
+D MCP1700 1.2V Regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+$ENDCMP
+#
+$CMP MCP1700-1.8
+D MCP1700 1.8V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+$ENDCMP
+#
+$CMP MCP1700-2.5
+D MCP1700 2.5V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+$ENDCMP
+#
+$CMP MCP1700-3.0
+D MCP1700 3.0V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+$ENDCMP
+#
+$CMP MCP1700-3.3
+D MCP1700 3.3V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+$ENDCMP
+#
+$CMP MCP1700-5.0
+D MCP1700 5.0V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
+$ENDCMP
+#
 $CMP MOUNT
 D Mounting Hole
+$ENDCMP
+#
+$CMP MOUNT_HOLE
+D Mounting Hole
+$ENDCMP
+#
+$CMP PIEZO
+D Standard Piezo
+$ENDCMP
+#
+$CMP POT
+D Potentiometer
 $ENDCMP
 #
 $CMP PUSH_SWITCH
