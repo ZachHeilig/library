@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2/14/2012 4:00:38 AM
+EESchema-DOCLIB  Version 2.0  Date: 2/14/2012 5:02:52 AM
 #
 $CMP BOARD_PROTO_QUARTER
 D Prototype Style Board, 17x2 Sets of Holes, 2 Busses
@@ -34,6 +34,21 @@ $ENDCMP
 #
 $CMP R
 D Resistor
+$ENDCMP
+#
+$CMP TPS61200
+D Adjustable Boost Regulator, 0.3 to 5.5V in
+F http://www.ti.com/lit/ds/symlink/tps61200.pdf
+$ENDCMP
+#
+$CMP TPS61201
+D 3.3V Boost Regulator, 0.3 to 5.5V in
+F http://www.ti.com/lit/ds/symlink/tps61200.pdf
+$ENDCMP
+#
+$CMP TPS61202
+D 5.0V Boost Regulator, 0.3 to 5.5V in
+F http://www.ti.com/lit/ds/symlink/tps61200.pdf
 $ENDCMP
 #
 #End Doc Library
