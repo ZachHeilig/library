@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/18/2012 1:42:51 AM
+EESchema-DOCLIB  Version 2.0  Date: 5/11/2012 12:05:44 PM
 #
 $CMP ATMEGA168
 D AVR  16K Flash, 512B EEPROM, 1K SRAM
@@ -33,6 +33,14 @@ $CMP BATTERY
 D Generic Battery
 $ENDCMP
 #
+$CMP BEAD
+D Ferrite Bead
+$ENDCMP
+#
+$CMP BOARD
+D Placeholder to allow a board outline to be loaded in the pcb editor.
+$ENDCMP
+#
 $CMP BOARD_PROTO_QUARTER
 D Prototype Style Board, 17x2 Sets of Holes, 2 Busses
 $ENDCMP
@@ -41,8 +49,40 @@ $CMP C
 D Non-Polarized Capacitor
 $ENDCMP
 #
+$CMP CONN_1
+D 1 Connection Point
+$ENDCMP
+#
+$CMP CONN_10
+D Generic 10 Pin Connector / Device
+$ENDCMP
+#
+$CMP CONN_15
+D 15 Position Connector / Device
+$ENDCMP
+#
 $CMP CONN_2
 D Generic 2 pin connector
+$ENDCMP
+#
+$CMP CONN_3
+D Generic 3 Pin Connector / Device
+$ENDCMP
+#
+$CMP CONN_6
+D Generic 6 Pin Connector / Device
+$ENDCMP
+#
+$CMP CONN_7
+D Generic 7 pin connector / device
+$ENDCMP
+#
+$CMP CONN_8
+D Generic 8-pin connector/device
+$ENDCMP
+#
+$CMP CONN_9
+D 9 Position Connector / Device
 $ENDCMP
 #
 $CMP CP
@@ -67,6 +107,11 @@ $ENDCMP
 #
 $CMP JACK_POWER
 D Power Jack
+$ENDCMP
+#
+$CMP JACK_USB
+D USB Micro-B Connector
+K USB usb CONNECTOR connector
 $ENDCMP
 #
 $CMP JMP_1
@@ -121,12 +166,80 @@ D MCP1700 5.0V
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21826b.pdf
 $ENDCMP
 #
+$CMP MCP1801T-0902I-OT
+D LDO Regulator, 150mA, 2V - 10V Input, 0.9V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-1202I-OT
+D LDO Regulator, 150mA, 2V - 10V Input, 1.2V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-1802I-OT
+D LDO Regulator, 150mA, 2V - 10V Input, 1.8V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-2502I-OT
+D LDO Regulator, 150mA, 2.6V - 10V Input, 2.5V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-3002I-OT
+D LDO Regulator, 150mA, 3.1V - 10V Input, 3.0V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-3302I-OT
+D LDO Regulator, 150mA, 3.4V - 10V Input, 3.3V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-5002I-OT
+D LDO Regulator, 150mA, 5.1V - 10V Input, 5.0V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
+$CMP MCP1801T-6002I-OT
+D LDO Regulator, 150mA, 6.1V - 10V Input, 6.0V output
+K regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22051D.pdf
+$ENDCMP
+#
 $CMP MOUNT
 D Mounting Hole
 $ENDCMP
 #
 $CMP MOUNT_HOLE
 D Mounting Hole
+$ENDCMP
+#
+$CMP PIC18F13K50
+D USB PIC18F13K50 --4KWords Flash, 512B RAM, 256B EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41350E.pdf
+$ENDCMP
+#
+$CMP PIC18F14K50
+D USB PIC18F14K50 --8KWords Flash, 768B RAM, 256B EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41350E.pdf
+$ENDCMP
+#
+$CMP PIC18LF13K50
+D USB PIC18LF13K50 --4KWords Flash, 512B RAM, 256B EEPROM, 3.6V Max
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41350E.pdf
+$ENDCMP
+#
+$CMP PIC18LF14K50
+D USB PIC18LF14K50 --8KWords Flash, 768B RAM, 256B EEPROM, 3.6V Max
+F http://ww1.microchip.com/downloads/en/DeviceDoc/41350E.pdf
 $ENDCMP
 #
 $CMP PIEZO
